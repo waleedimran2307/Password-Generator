@@ -1,0 +1,91 @@
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp_69r0Kvb_MqXjEqnYtZKhn2P_goySpbb7g&usqp=CAU");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.passgen {
+  color: rgba(20, 20, 20, 0.945);
+  display: block;
+  width: 850px;
+  height: 500px;
+  transform: translate(330px, 70px);
+  padding: 20px;
+  font-size: 19px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.passgen .container {
+  text-align: center;
+  background-color: aqua;
+  display: block;
+  width: 50%;
+  height: auto;
+  margin: auto;
+  margin-top: -15px;
+  opacity: 1;
+}
+
+.passgen .container h1 {
+  display: block;
+  background-color: rgb(148, 216, 121);
+}
+
+.passgen .container #pass {
+  width: 270px;
+  height: 25px;
+  font-size: 17px;
+}
+
+.passgen .container form {
+  position: relative;
+  left: 18%;
+  top: 1%;
+  display: block;
+  width: 60%;
+}
+
+.passgen .container form label {
+  margin: auto;
+  width: 270px;
+  height: 30px;
+  display: block;
+  position: relative;
+  left: -5px;
+  top: 12px;
+  background-color: lightgreen;
+}
+.passgen .container form .chb {
+  position: relative;
+  left: 100px;
+  top: -17px;
+}
+
+#btn {
+  background-color: darkseagreen;
+  margin-bottom: 1px;
+  margin-top: 10px;
+  font-size: 19px;
+  width: 110px;
+  height: 35px;
+  border: none;
+}
+
+.passgen .container .message h4 {
+  display: block;
+  background-color: rgb(148, 216, 121);
+}
+.passgen .container .message #spanoutput {
+  margin-top: -25px;
+  margin-bottom: 4px;
+  background-color: rgb(148, 216, 121);
+  display: block;
+  width: auto;
+  height: 45px;
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: bold;
+  padding-top: 2px;
+  padding-left: 15px;
+}
